@@ -13,4 +13,4 @@ https://cdn.rawgit.com/ZacharyCWilliams/To-Do-List/a10702ce/index.html
 
 ### Summary
 
-All in all this was a super fun project that solified my understanding of fundamental front-end dev concepts!
+All in all this was a super fun project that improved my understanding of fundamental front-end dev concepts!
