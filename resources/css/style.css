@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+.header {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  background: #25b99a;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.25);
+  padding: 15px;
+}
+
+.header-input {
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: rgba(255, 225, 225, 0.2);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 450;
+  text-indent: 20px;
+  padding-right: 60px;
+}
+
+.header ::placeholder {
+  color: rgba(255,255,255,.80);
+}
+
+.input-button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  border-radius: 25px;
+  background: #fff;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-button svg {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -8px 0 0 -8px;
+}
+
+.input-button svg .fill {
+  fill: #25b99a;
+}
+
+body {
+  background: #edf0f1;
+  padding-top: 80px;
+}
+
+body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.to-do {
+  width: 100%;
+  float: left;
+  margin-top: 90px;
+  /* TEST */
+  margin-bottom: 0px;
+}
+
+.to-do:empty {
+  width: 100%;
+  float: left;
+  margin-top: 90px;
+  /* TEST */
+  margin-bottom: 30px;
+}
+
+.to-do-items {
+  width: 100%;
+  min-height: 50px;
+  float: left;
+  background: #fff;
+  box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.15);
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+  position: relative;
+  padding: 14px 100px 14px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  line-height: 22px;
+}
+
+.container {
+  padding: 15px;
+  width: 100%;
+  float: left;
+}
+
+.to-do-buttons {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.to-do-button {
+  width: 50px;
+  height: 50px;
+  float: right;
+  background: none;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  position: relative;
+}
+
+.to-do-button svg {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -11px 0 0 -11px;
+  cursor: pointer;
+}
+
+.to-do-button #remove-button {
+  fill: #c0cecb;
+}
+
+.to-do-button #remove-button:hover {
+  fill: #e85656;
+  transition: 0.25s ease;
+}
+
+#last-button:before {
+  content: "";
+  width: 2px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background: #edf0f1;
+}
+
+.noFill {
+  fill: none;
+}
+
+#last-button svg {
+  border-radius: 11px;
+  border: 1.5px solid #25b99c;
+}
+
+#last-button svg .fill {
+  fill: #25b99c;
+}
+
+#last-button svg:hover {
+  background: rgba(37, 185, 154, 0.75);
+  transition: 0.5s ease;
+}
+
+#last-button:hover svg .fill {
+  fill: #fff;
+  transition: 0.5s ease;
+}
+
+#completed #last-button svg {
+    background: rgba(37, 185, 154, 0.75);
+    transition: 0.5s ease;
+    border-radius: 11px;
+}
+
+#completed #last-button svg .fill {
+  fill: #fff;
+  transition: 0.5s ease;
+}
+
+#completed {
+  padding: 60px 0 0 0;
+  position: relative;
+  /* test  */
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+#completed:before {
+  content: '';
+  width: 150px;
+  height: 2px;
+  background: #d8e5e0;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#todo:empty:after {
+  margin: 30px 0 -30px 0;
+  content: 'You have nothing to do!';
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+#completed:empty:after {
+  content: 'You have yet to complete any tasks';
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin: -10px 0 30px 0;
+}
+
+
+/* margin-top: 80px;
+    margin-bottom: 0px;
+
+
+
+    margin-top: 40px;
+    padding-top: 20px; */
