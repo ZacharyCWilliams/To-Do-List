@@ -11,4 +11,4 @@ https://cdn.rawgit.com/ZacharyCWilliams/To-Do-List/a10702ce/index.html
 - Solidifed my understanding of CSS. Learned abut additive selectors (:hover and :empty)
 - How to integrate local database into JS architecture
 
-All in all this was a super fun project that solified my understanding of fundamental front-end dev concepts! 
+All in all this was a super fun project that solified my understanding of fundamental front-end dev concepts!
