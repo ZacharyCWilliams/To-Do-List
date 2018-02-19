@@ -1,6 +1,8 @@
 # To-Do-List
 
+```
 A simple to-do check list built using HTML, CSS, and Javascript.
+```
 
 ### How To Use
 
