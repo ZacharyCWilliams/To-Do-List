@@ -80,7 +80,7 @@ function renderToDoList() {
       addItemToDo(value);
       document.getElementById("input-content").value = '';
 
-      data.todo.push(value, true);
+      data.todo.push(value);
     }
     dataObjectUpdated()
   })
